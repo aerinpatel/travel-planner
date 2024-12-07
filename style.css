@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    background-image: url('pexels-tombrand-1646178.jpg');
+    height: 98vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-btns{
+    display: flex;
+    
+    justify-content: space-between;
+}
+.nav-btn{
+    font-size: 20px;
+    border: none;
+    border: 3px solid transparent;
+    /* border-bottom: 3px solid black; */
+    border-left: 3px solid black;
+    color: white;
+    background-color: transparent;
+    padding: 5px 18px 5px 18px;
+}
+.nav-btn:hover{
+    color: black;
+    /* border-radius: 40px; */
+    transition: ease-in-out 0.5s;
+}
+main{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a{
+        color: black;
+        text-decoration: none;
+
+    }
+}
+.main-btn{
+    font-size: 20px;
+    border: none;
+    border: 3px solid transparent;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+    /* border-radius: 10%; */
+    background-color: transparent;
+    padding: 5px 18px 5px 18px;
+}
+.main-btn:hover{
+    border: 3px solid white;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+footer{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    a{
+        font-size: 40px;
+        margin: 1rem;
+        color: white;
+    }
+    
+}
+.insta:hover{
+    font-weight: bold;
+    background: linear-gradient(to right, #ff0000 0%, purple 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 1s ease-in-out;
+}
+.github:hover{
+    color: rgb(3, 3, 3);
+}
+.twitter :hover{
+    color: rgb(3, 3, 3);
+}
+.linkedin:hover{
+    color: rgb(0, 166, 255);
+}
